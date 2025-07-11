@@ -43,7 +43,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("http://stareio.com/neo/get_data.php");
+        const res = await fetch("https://stareio.com/neo/get_data.php");
 
         if (!res.ok) {
           throw new Error("Failed to fetch data");
