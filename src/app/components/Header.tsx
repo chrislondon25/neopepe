@@ -11,7 +11,7 @@ export default function Header({ toggleBuyModal }: BuyModalProps) {
         <div className="header-inner">
           <a href="./" className="logo">
             <Image
-              src={"/assets/images/icon/logo.png"}
+              src={"/assets/images/icon/lgo.png"}
               width={65}
               height={40}
               alt="Logo"

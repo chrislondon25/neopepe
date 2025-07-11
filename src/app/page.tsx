@@ -86,8 +86,8 @@ export default function Home() {
       title: "SOL",
       img: "/assets/images/icon/sol_logo.svg",
       name: "solana",
-      wallet: "bc1qf2kdgu2vlctqlnlxk4smkxd68grl5q2we8dzfd",
-      qrcode: "/assets/images/qrcode/bitcoin.png",
+      wallet: "9uVNxQbTAzc9XYDNDtJTdXQpn4SgLJKknJHvNxHCWzUq",
+      qrcode: "/assets/images/qrcode/sol.png",
     },
 
     {
@@ -95,8 +95,8 @@ export default function Home() {
       title: "ETH",
       img: "/assets/images/icon/eth_logo.png",
       name: "ethereum",
-      wallet: "bc1qf2kdgu2vlctqlnlxk4smkxd68grl5q2we8dzfd",
-      qrcode: "/assets/images/qrcode/bitcoin.png",
+      wallet: "0xd5fA87546A8E21038F611B3FF9121bC0185C72C4",
+      qrcode: "/assets/images/qrcode/eth.png",
     },
 
     {
@@ -104,8 +104,8 @@ export default function Home() {
       title: "USDT",
       img: "/assets/images/icon/usdt_logo.png",
       name: "tether",
-      wallet: "bc1qf2kdgu2vlctqlnlxk4smkxd68grl5q2we8dzfd",
-      qrcode: "/assets/images/qrcode/bitcoin.png",
+      wallet: "TXDcbDEauzceabaVWjA9SpVosUekpxHBJn",
+      qrcode: "/assets/images/qrcode/usdt.png",
     },
 
     {
@@ -113,8 +113,8 @@ export default function Home() {
       title: "BTC",
       img: "/assets/images/icon/btc_logo.png",
       name: "bitcoin",
-      wallet: "bc1qf2kdgu2vlctqlnlxk4smkxd68grl5q2we8dzfd",
-      qrcode: "/assets/images/qrcode/bitcoin.png",
+      wallet: "bc1qvhq9x3gmes40e922t45vsn366fr05q9xww870f",
+      qrcode: "/assets/images/qrcode/btc.png",
     },
 
     {
@@ -122,24 +122,24 @@ export default function Home() {
       title: "DOGE",
       img: "/assets/images/icon/doge_logo.png",
       name: "doge",
-      wallet: "bc1qf2kdgu2vlctqlnlxk4smkxd68grl5q2we8dzfd",
-      qrcode: "/assets/images/qrcode/bitcoin.png",
+      wallet: "DRWRM4dV4UdBJB5L8LvvKNiyPjF4s7p9x3",
+      qrcode: "/assets/images/qrcode/doge.png",
     },
     {
       id: 4,
-      title: "TRX",
-      img: "/assets/images/icon/trx_logo.png",
+      title: "BNB",
+      img: "/assets/images/icon/bnb_logo.png",
       name: "tron",
-      wallet: "bc1qf2kdgu2vlctqlnlxk4smkxd68grl5q2we8dzfd",
-      qrcode: "/assets/images/qrcode/bitcoin.png",
+      wallet: "0xd5fA87546A8E21038F611B3FF9121bC0185C72C4",
+      qrcode: "/assets/images/qrcode/bnb.png",
     },
     {
       id: 5,
       title: "XRP",
       img: "/assets/images/icon/xrp_logo.png",
       name: "ripple",
-      wallet: "bc1qf2kdgu2vlctqlnlxk4smkxd68grl5q2we8dzfd",
-      qrcode: "/assets/images/qrcode/bitcoin.png",
+      wallet: "rPmhMMUmZrnVnGTFvCfTnFA2zZt8CedrLF",
+      qrcode: "/assets/images/qrcode/xrp.png",
     },
   ];
 
@@ -160,7 +160,7 @@ export default function Home() {
           <div className="banner1-content text-center">
             <h5 className="outfit uppercase">Pre-Sale Ends in</h5>
             <CountdownTimer date_end={data.date_end} />
-            <h2 className="orbitron">AIRTOKEN</h2>
+            <h2 className="orbitron">NEO PEPE MATRIX</h2>
             <h5 className="outfit">
               Early Access. Infinite Potential. Your Journey Starts Here.
             </h5>
@@ -184,7 +184,7 @@ export default function Home() {
 
             <div className="price-text">
               <p className="orbitron wt-600">
-                1 <span className="gittu-token-symbol">AIRTK</span> ={" "}
+                1 <span className="gittu-token-symbol">NPM</span> ={" "}
                 {data.price} USD
               </p>
               <p className="orbitron wt-600">
