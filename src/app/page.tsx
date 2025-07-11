@@ -205,7 +205,7 @@ export default function Home() {
             <div className="banner1-social">
               <ul>
                 <li>
-                  <a href="https://telegram.org/" target="_blank">
+                  <a href="https://t.me/Zss_beckerreal" target="_blank">
                     <Image
                       width={20}
                       height={20}
@@ -216,7 +216,7 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/" target="_blank">
+                  <a href="https://x.com/zsss_becke?s=21" target="_blank">
                     <Image
                       width={20}
                       height={20}
