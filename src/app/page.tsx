@@ -158,10 +158,10 @@ export default function Home() {
       <section className="banner1-section">
         <div className="container">
           <div className="banner1-content text-center">
-            <h5 className="outfit uppercase">Pre-Sale Ends in</h5>
+            <h5 className="outfit uppercase"  style={{color: '#ccc'}}>Pre-Sale Ends in</h5>
             <CountdownTimer date_end={data.date_end} />
-            <h2 className="orbitron">NEO PEPE MATRIX</h2>
-            <h5 className="outfit">
+            <div><h2 className="orbitron">NEO PEPE MATRIX</h2><Image alt="Neo Pepe Matrix" src={'/assets/images/icon/neopm.jpg'} width={256} height={144} className={`animate-float rounded-lg shadow-lg`}/></div>
+            <h5 className="outfit"  style={{color: '#bbb'}}>
               Early Access. Infinite Potential. Your Journey Starts Here.
             </h5>
             <div className="progress-section v1">
@@ -184,10 +184,10 @@ export default function Home() {
 
             <div className="price-text">
               <p className="orbitron wt-600">
-                1 <span className="gittu-token-symbol">NPM</span> ={" "}
+                1 <span className="gittu-token-symbol">NEOPM</span> ={" "}
                 {data.price} USD
               </p>
-              <p className="orbitron wt-600">
+              <p className="orbitron wt-600" style={{color: '#bbb'}}>
                 NEXT STAGE PRICE = {data.next_stage_price} USD
               </p>
               <p className="orbitron wt-600">MOQ = {data.moq} USD</p>
@@ -230,8 +230,8 @@ export default function Home() {
             </div>
           </div>
         </div>{" "}
-        <div className="p-6">
-          <h3 className="text-xl font-bold mb-10 mt-10">Leader Board</h3>
+        <div className="p-6" style={{width: 'calc(100% - 40px)', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', margin: 20}}>
+          <h2 className="text-xl font-bold m-20">Leader Board</h2>
           {loading && <div className="text-gray-600">Loading...</div>}
           {/* {error && <div className="text-red-600">Error: {error}</div>} */}
           {!loading && <LeaderBoardTable leaderBoards={leaderBoards} />}

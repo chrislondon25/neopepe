@@ -30,6 +30,22 @@ CSS table of content
   box-sizing: border-box;
 }
 
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
 ::-moz-selection {
   background-color: #65ea88;
   color: #111111;
@@ -101,6 +117,30 @@ h5 {
   font-weight: 700;
   line-height: 23.44px;
 }
+
+table{
+  border-collapse: collapse;
+  margin-top: 10px; 
+  border-spacing: 0;
+  border: 1px solid #aaa5;
+}
+
+tr{
+  border: none;
+}
+
+td, th {
+  font-family: Outfit, Outfit Fallback;
+  margin: 0;
+  border-top: 1px solid #aaa5;
+  border-bottom: 1px solid #aaa5;
+  padding: 5px ;
+}
+
+th{
+  color: #acacac;
+}
+
 
 ul {
   list-style: none;
